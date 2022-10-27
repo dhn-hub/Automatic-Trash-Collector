@@ -23,7 +23,7 @@ int RIGHT_IR_PIN_STATE=0;
 unsigned char  PROCESS_STAGE=0,PSTATE_CNT=0;
 int  RFT_CNT=0;
 
-//boolean  GAS_flag=0,G_IR_flag=0;
+boolean  GAS_flag=0,G_IR_flag=0;
 
 boolean LEFT_IR_FLAG=0;
 boolean RIGHT_IR_FLAG=0;
@@ -31,7 +31,7 @@ boolean START_FLG=0,STOP_FLAG=0;
 
 boolean R_FLAG=0,L_FLAG=0;
 
-//boolean GAS_DETECT_FLAG=0;
+boolean GAS_DETECT_FLAG=0;
 boolean  GARBAGE_IR_DETECT_FLG=0;
 
 void READ_RIGHT_IR_SENSOR(void);
